@@ -37,6 +37,10 @@ public class Main {
 
     private static void task1(double x) {
         double a;
+
+//        a = 3 * Math.pow(x, 1. / 3) - 7;
+//        System.out.println("1) X = " + x + ", a = " + a);
+
         if (x > 0) {
             a = 3 * Math.pow(x, 1. / 3) - 7;
             System.out.println("1) X = " + x + ", a = " + a);
